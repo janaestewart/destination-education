@@ -14,6 +14,7 @@
 
 .content{
     height: 100vh;
+    /* max-width: ; */
 }
 
 .heading{
@@ -25,6 +26,7 @@
     display: flex;
     align-items: center;
     justify-content: space-between;
+    /* max-width: 1300px; */
 }
 
 a{
@@ -38,6 +40,11 @@ a{
     font-size: 16px;
 }
 
+#icon-container{
+    display: none;
+    font-size: 40px;
+}
+
 .logo{
    font-family: 'DynaPuff', cursive; 
    font-size: 40px;
@@ -48,4 +55,16 @@ footer{
     margin-top: 20px;
     background-color: var(--footer);
     padding: 20px;
+}
+
+
+@media (max-width: 768px){
+    .nav-holder{
+        display: none;
+    }
+    #icon-container{
+        display: block;
+        padding: 0 20px;
+    }
+
 }

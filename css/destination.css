@@ -1,8 +1,7 @@
 .input-holder{
     display: flex;
     justify-content: center;
-    margin-top: 20px;
-    margin-bottom: 30px;
+    margin: 20px auto;
 }
 
 #search{
@@ -23,12 +22,35 @@
 }
 
 #destination{
-    background-color: green;
-    height: 100vh;
+    /* background-color: green; */
+    height: 70vh;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    text-align: center;
 }
 
-#destination-holder{
-    /* border: 1px solid black;
-    width: 300px;
-    margin: 0 auto; */
+.destination-holder{
+    margin-top: 20px;
+    padding: 20px 5px;
+    border: 1px solid black;
+    border-radius: 6px;
+    width: 350px;
+    margin-right: 10px;
+    text-align: center;
+    min-height: 390px;
+    max-height: 450px;
+}
+
+.country-flag{
+    margin-bottom: 10px;
+}
+
+.country-borders{
+    word-wrap: break-word;
+}
+
+.country-link{
+    text-decoration: underline;
+    cursor: pointer;
 }
